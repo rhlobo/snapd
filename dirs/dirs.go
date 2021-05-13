@@ -139,7 +139,7 @@ const (
 	CoreSnapMountDir = "/snap"
 
 	// Directory with snap data inside user's home
-	UserHomeSnapDir = "snap"
+	UserHomeSnapDir = "local/snap"
 
 	// LocalInstallBlobTempPrefix is used by local install code:
 	// * in daemon to spool the snap file to <SnapBlobDir>/<LocalInstallBlobTempPrefix>*
